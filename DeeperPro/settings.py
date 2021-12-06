@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-#t@as(-253gg74vz4jcflm2#i$08w+cbr6@#$mquh7e(u@+91b
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://deeperlife-togo.heroku.com']
+ALLOWED_HOSTS = ['.vercel.app']
 
 
 # Application definition
