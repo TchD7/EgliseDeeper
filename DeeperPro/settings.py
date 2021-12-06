@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-#t@as(-253gg74vz4jcflm2#i$08w+cbr6@#$mquh7e(u@+91b
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['deeperlife-togo.heroku.com']
+ALLOWED_HOSTS = ['https://deeperlife-togo.heroku.com']
 
 
 # Application definition
@@ -95,22 +95,22 @@ WSGI_APPLICATION = 'DeeperPro.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'drk78jv1rrpjc',
-        'USER':  'chfuozboihewya',
-        'PASSWORD':'2eef2bac88ca06bb1d6ece1c6ebca03e20d5df0667c253c132a38f2e35d05f6d',
-        'HOST': 'ec2-34-242-89-204.eu-west-1.compute.amazonaws.com',
-        'PORT':'5432'
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': 'drk78jv1rrpjc',
+#         'USER':  'chfuozboihewya',
+#         'PASSWORD':'2eef2bac88ca06bb1d6ece1c6ebca03e20d5df0667c253c132a38f2e35d05f6d',
+#         'HOST': 'ec2-34-242-89-204.eu-west-1.compute.amazonaws.com',
+#         'PORT':'5432'
+#     }
+# }
 
 
 # Password validation
